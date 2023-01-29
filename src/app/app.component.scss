@@ -1,0 +1,46 @@
+.CaixaJogoTicTacToe {
+  display: flex;
+  padding: 2rem;
+
+  .JogoTicTacToe {
+    .LinhasJogo {
+      display: flex;
+    }
+
+    .Brick {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      height: 3rem;
+      width: 3rem;
+      font-size: 24px;
+    }
+
+    #Brick01,
+    #Brick21 {
+      border-left: 1px solid black;
+      border-right: 1px solid black;
+    }
+
+    #Brick10,
+    #Brick12 {
+      border-top: 1px solid black;
+      border-bottom: 1px solid black;
+    }
+
+    #Brick11 {
+      border: 1px solid black;
+    }
+  }
+
+  .SideArea {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    margin-left: 2rem;
+
+    
+  }
+}
